@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+text-align: justify;
+font-family: Arial, sans-serif;
+
+}
+h1{
+font-family: fantasy;
+}
+h2{
+    font-family: monospace;
+}
+div#Int{
+    display: flex;
+}
+div#im{
+    display: block;
+    background-color: blueviolet;
+    float: left;
+    padding: 7%;
+    border-radius: 20px;
+   
+}
+div#ass{
+    display: block;
+    background-color:rgb(252, 251, 250);
+    float: right;
+    text-align: center;
+    border-radius: 20px;
+}
+div#ass nav#sig ul{
+   list-style: none;
+   float: left;
+
+}
+div#ass nav#sig{
+    display: block;
+    border-radius: 20px;
+}
+
+div#ass ul#sign{
+    list-style: none;
+    float: right;
+    text-align: justify;
+    
+}
+div#ass ul#sign input{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+
+}
+div#ass ul#sign button{
+    border-radius: 20px;
+    background-color: cadetblue;
+    color: wheat;
+}
+div#ass nav#sig li{
+    display: block;
+    border-radius: 20px;
+    background-color:black;
+    padding: 5px;
+    margin: 2px;
+    transition: 1s;
+}
+div#ass nav#sig li:hover{
+       background-color: cornflowerblue;
+}
+div#ass nav#sig a{
+    text-decoration: none;
+    color: white;
+}
